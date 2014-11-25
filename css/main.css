@@ -223,17 +223,10 @@ padding: 16px 0;
 .fit h2{
 	letter-spacing: 3px;
 	color: #e65a27;
-	font-weight: lighter;
-	font-size: 38px;
 }
-.fit h4{
-	color: #b3b3b3;
-	line-height: 23px;
-}
+
 .fit p{
 	font-size: 12px;
-	color: #b3b3b3;
-	line-height: 20px;
 }
 
 .home-widget{
@@ -243,23 +236,17 @@ padding: 16px 0;
 	border-right: 1px solid;
 	min-height: 505px;
 }
-.home-widget h3{
-	font-size: 27px;
-}
-.home-widget p{
-	color: #b3b3b3;
-}
 .home-widget:last-child{
 	border-right: none;
 	padding-bottom: 10px;
 }
 
-.thirdwidget p{
-		color: #fff;
+.thirdwidget{
+	
 }
 
 .thirdwidget-more{
-	color: #276990 !important;
+	color: #276990;
 }
 
 .title{
@@ -317,13 +304,7 @@ padding: 16px 0;
 
 .steel-image{
 	margin: 33px auto 0px !important;
-	width: 230px;
-	height: 160px;
-	background: #1b1c1c;
-}
-.steel-image img{
-	margin: 0 auto;
-	padding:10px 0;
+	width: 190px;
 }
 .steel-image-wrap{
 	
@@ -335,18 +316,12 @@ padding: 16px 0;
 #featured-banner{
 	position: relative;
 }
-.STEELFIBER .left-content h3{
-	font-size:18px;
-	font-weight: normal;
+.steelfiber > h3{
+	margin-left: 0px !important;
 }
-.steelfiber h2, .steelfiber p {
-	margin-left: 8px;
-}
-.steelfiber h2{
-	letter-spacing: 1px;
-}
-.steelfiber p{
-	font-size: 14px; 
+
+.steelfiber {
+    padding-left: 15px !important;
 }
 /***** Ends ******/
 
@@ -410,10 +385,6 @@ padding: 16px 0;
 .responsive-btn{
 	display: none;
 }
-.dealer-details {
-	max-height: 270px;
-	overflow-y: auto; 
-}
 /****************** Ends here ***********************/
 
 /********************* Product page css **************************/
@@ -435,7 +406,7 @@ padding: 16px 0;
 }
 
 .heading{
-	border-bottom: 1px solid;
+	border-bottom: 2px solid;
 	padding-top: 10px;
 }
 
@@ -459,16 +430,12 @@ padding: 16px 0;
 }
 
 .col-md-4-modify p{
-	font-weight: 900;
+	/*font-weight: 900;*/
 }
 
 .col-md-4-divs{
 	padding-left: 20px !important;
-	border-bottom: 1px solid;
-}
-.single-product-detailed-section > .product-title{
-	font-weight: bold;
-	margin: 20px 0 0;
+	border-bottom: 2px solid;
 }
 
 .col-md-4-divs:last-child{
@@ -484,21 +451,18 @@ padding: 16px 0;
 	font-weight: 900;
 }
 
-.row-detail h3{
+/*.row-detail h3{
 	margin-bottom: 0px;
 	font-size: 13px;
 	font-weight: bolder;
-}
+}*/
+
 .row-detail p{
 	font-weight: lighter;
     line-height: 16px;
     padding-right: 60px;
 }
-.single-product-detailed-section p{
-	font-size: 15px;
-	line-height: 20px;
-	font-weight: normal;
-}
+
 .pdf{
 	background-color: #f7921e;
 	color: #000000;
@@ -506,35 +470,7 @@ padding: 16px 0;
     font-weight: 800;
     margin-right: 9px;
 }
-.single-product-details{
-	margin-bottom: 0;
-    margin-top: 0;
-    padding-left: 33px !important;
-}
-.breadCrum h3{
-	  margin-bottom: 20px;
-    margin-top: 30px;
-}
-.download-file{
-	font-weight: normal !important;
-	font-size: 15px !important;
-}
-.design-tech-wrap ul{
-	 list-style: none;
-    padding:0;
-    margin:0;
-}
-.design-tech-wrap ul li{
-	font-weight: normal;
-}
-.design-tech-wrap li { 
-    padding-left: 1em; 
-    text-indent: -.7em;
-}
-.design-tech-wrap li:before {
-    content: "• ";
-    color: #f7921e; /* or whatever color you prefer */
-}
+
 /********************** Ends here *************************/
 
 /************************** News and Media ********************************/
@@ -547,7 +483,7 @@ padding: 16px 0;
 .col-md-8-media{
 	width: 63.667%;
     padding-bottom: 10px;
-    min-height: 400px;
+    min-height: 450px;
     padding-bottom: 50px;
     padding-top: 20px;
     border-right: 1px solid;
@@ -561,11 +497,7 @@ padding: 16px 0;
 	font-weight: bolder !important;
 }
 .col-md-8-media > div {
-    padding: 0 10px !important;
-}
-.news-widget p{
-	color: #b3b3b3;
-	font-weight: normal;
+    padding: 0 15px !important;
 }
 /************************* Ends here *********************************/
 
@@ -612,13 +544,13 @@ padding: 16px 0;
 	/*border-right: 1px solid;*/
 }
 .left-content h3{
-	margin-left: 8px;
+	margin-left: 15px;
 }
 .col-md-8-about {
 	
     min-height: 360px;
     padding-bottom: 20px;
-    padding-left: 10px !important;
+    padding-left: 15px !important;
     padding-right: 25px !important;
 	padding-top: 0px;
 	text-align: left;
@@ -646,10 +578,6 @@ padding: 16px 0;
 }
 .hideObj {
     display: none;
-}
-.company-history h3 , .col-md-4-about h3{
-	margin-bottom: 20px;
-	margin-top: 30px;
 }
 
 /************************** Ends here ************************************/
@@ -690,10 +618,9 @@ padding: 16px 0;
 	}
 
 	#logo{
+		padding-left: 0px !important;
+		margin: 20px 0px 20px 9px !important;
 		clear: both;
-    margin: 0 auto !important;
-    padding-left: 0 !important;
-    width: 62%;
 	}
 
 	.top-menu{
@@ -883,6 +810,23 @@ padding: 16px 0;
 
 	.news-widget {
 	    margin: 0px !important;
+	}
+
+	.products-page-wrap{
+	    border-bottom: 1px solid;
+	    border-right: none !important;
+	}
+
+	div.products-page-wrap > .col-md-8-product{
+		padding-left: 10px !important;
+	}
+
+	div.products-page-wrap > .col-md-8-product  > .col-md-8-product-row{
+	    padding-left: 0px !important;
+	}
+
+	.col-md-4-divs{
+		padding-left: 0px !important;
 	}
 
 	/*********************************************************/
@@ -1126,6 +1070,17 @@ padding: 16px 0;
 		width: 50%;
 	}
 
+	.products-page-wrap{
+	    border-bottom: 1px solid;
+	    border-right: none !important;
+	}
+
+	.products-page-wrap-item{
+		float: left;
+		width: 50%;
+		margin-bottom: 5px;
+	}
+
 }
 /******************************** Product Item *****************************************/
 
@@ -1158,14 +1113,11 @@ padding: 16px 0;
 
 .col-md-4-player-says{
 	border:medium none;
-	
 }
-.col-md-4-player-says p{
-	color:#b3b3b3;
-}
+
 .products-page-wrap{
 	border-right: 1px solid;
-	min-height: 841px;
+	min-height: 730px;
 }
 .col-md-8-product-row a{
 	color: #fff;
@@ -1173,6 +1125,13 @@ padding: 16px 0;
 .page-title-product{
 	text-transform: capitalize;
 	margin-left: 0 !important;
+}
+.single-product-detailed-section p , .single-product-detailed-section h5{
+
+		padding-left: 15px;
+}
+.breadCrum h3{
+	padding-left: 15px;
 }
 /********************************* Ends here ***************************************/
 /********************************* News Subscribe ***************************************/
@@ -1212,13 +1171,6 @@ form[name="newsman-nsltr"] .newsman-form-item:first-child { width: 170px;}
 .newsman-form-item > .newsman-button-small:hover{
 	text-shadow:none !important;
 	color: #fff !important;
-}
-.contact-players p {
-    color:#b3b3b3;
-    font-weight: normal;
-}
-.col-md-8-contact h4{
-	font-weight: normal;
 }
 /********************************* Ends here ***************************************/
 
@@ -1297,7 +1249,7 @@ form[name="newsman-nsltr"] .newsman-form-item:first-child { width: 170px;}
 	}
 
 	.footer-rightdiv p{
-		text-align: center
+		text-align: center;
 		float: right;
 	}
 
@@ -1327,9 +1279,23 @@ form[name="newsman-nsltr"] .newsman-form-item:first-child { width: 170px;}
 	}
 
 	.col-md-8{
-		min-width: 63%;
+		width: 63%;
 	}
 
+	.products-page-wrap{
+	    border-right: none !important;
+	}
+
+	.products-page-wrap-item{
+		float: left;
+		width: 50%;
+		margin-bottom: 5px;
+	}
+
+	.products-page-wrap-item:nth-child(3) {
+	    clear: both;
+	}
+	
 	/*******************************************************************************************8***************/
 }
 
