@@ -535,7 +535,7 @@ padding: 16px 0;
 .news-widget p {
     color: #b3b3b3;
     font-weight: normal;
-} 
+}
 
 .about-us-detail{
 	padding-top: 0px !important;
@@ -1386,8 +1386,4 @@ form[name="newsman-nsltr"] .newsman-form-item:first-child { width: 170px;}
 /*------------Main Form----------*/
 .mksblog-request-demo form .newsman-form{
 	/*width: 300px;*/
-}
-/*------------New Dealers----------*/
-.distributorsdealers-2{
-	 padding-left: 22px;
 }
